@@ -59,20 +59,6 @@ footer {
   text-align: center;
 }
 
-footer a:hover {
-  background-color: aliceblue;
-  color: darkturquoise;
-}
-
-footer a:link {
-  text-decoration: none;
-  color: turquoise;
-}
-
-footer a:visited {
-  color: darkorchid;
-}
-
 .flagaside {
   padding: 25px;
   width: 50%;
@@ -80,7 +66,7 @@ footer a:visited {
 }
 
 .flagimages {
-  width: 500px;
+  padding: 15px;
 }
 
 figcaption {
@@ -95,7 +81,6 @@ figcaption {
 }
 
 .foodimages {
-  width: 500px;
   padding: 15px;
 }
 
@@ -112,8 +97,23 @@ figcaption {
   cursor: pointer;
 }
 
+table {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: aliceblue;
+  color: #2b2b2b;
+  border: 2px solid darkorchid;
+  border-radius: 25px;
+}
+
+td {
+  border: 2px solid darkorchid;
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+}
+
 .ratingimages {
-  width: 500px;
   padding: 15px;
 }
 
@@ -129,19 +129,85 @@ figcaption {
 }
 
 .posterimages {
-  width: 500px;
   padding: 0px;
 }
 
-#wikipedialink {
+#consonantstable th {
+  width: 25%;
+  border-top: 2px solid darkorchid;
+  border-left: 2px solid darkorchid;
+  border-right: 2px solid darkorchid;
+}
+
+#vowelstable th {
+  width: 50%;
+  border-bottom: 2px solid darkorchid;
+  border-top: 2px solid darkorchid;
+  border-left: 2px solid darkorchid;
+}
+
+#particlestable th {
+  width: 50%;
+  border-top: 2px solid darkorchid;
+  border-left: 2px solid darkorchid;
+  border-right: 2px solid darkorchid;
+}
+
+#sinotable th {
+  width: 50%;
+  border-top: 2px solid darkorchid;
+  border-left: 2px solid darkorchid;
+  border-right: 2px solid darkorchid;
+}
+
+#writingtable th {
+  width: 100%;
+}
+
+#writingimage {
+  padding: 15px;
+}
+
+.symboltables th {
+  border-bottom: 2px solid darkorchid;
+  border-top: 2px solid darkorchid;
+  border-left: 2px solid darkorchid;
+}
+
+#mapaside {
+  width: 50%;
+  float: right;
+}
+
+#dialectstable th {
+  border-top: 2px solid darkorchid;
+  border-left: 2px solid darkorchid;
+  border-right: 2px solid darkorchid;
+}
+
+#dialectstable table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#statusaside {
+  width: 50%;
+  float: right;
+}
+
+footer a:hover {
+  background-color: aliceblue;
+  color: darkturquoise;
+}
+
+footer a:link {
   text-decoration: none;
   color: turquoise;
 }
 
-#wikipedialink:visited {
+footer a:visited {
   color: darkorchid;
 }
-
 
 
 @media screen and (max-width: 1660px) {
@@ -167,6 +233,34 @@ figcaption {
 
   .posterimages {
     width: 25%;
+  }
+
+  #consonantsaside {
+    display: block;
+  }
+
+  #sinoaside {
+    display: block;
+  }
+
+  #writingimage {
+    width: 37.5%;
+  }
+
+  #symbolaside {
+    display: block;
+  }
+
+  #mapimage {
+    width: 75%;
+  }
+
+  #dialectsaside {
+    display: block;
+  }
+
+  .statusimages {
+    width: 75%;
   }
 }
 
@@ -195,6 +289,34 @@ figcaption {
   .posterimages {
     width: 25%;
   }
+
+  #consonantsaside {
+    display: none;
+  }
+
+  #sinoaside {
+    display: block;
+  }
+
+  #writingimage {
+    width: 37.5%;
+  }
+
+  #symbolaside {
+    display: none;
+  }
+
+  #mapimage {
+    width: 100%;
+  }
+
+  #dialectsaside {
+    display: none;
+  }
+
+  .statusimages {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1401px) and (orientation: landscape) {
@@ -220,6 +342,34 @@ figcaption {
 
   .posterimages {
     width: 25%;
+  }
+
+  #consonantsaside {
+    display: none;
+  }
+
+  #sinoaside {
+    display: block;
+  }
+
+  #writingimage {
+    width: 37.5%;
+  }
+
+  #symbolaside {
+    display: none;
+  }
+
+  #mapimage {
+    width: 100%;
+  }
+
+  #dialectsaside {
+    display: none
+  }
+
+  .statusimages {
+    width: 100%;
   }
 }
 
@@ -249,6 +399,44 @@ figcaption {
   .posterimages {
     width: 50%;
   }
+
+  #consonantsaside {
+    display: none;
+  }
+
+  #sinoaside {
+    display: none;
+  }
+
+  #writingimage {
+    width: 37.5%;
+  }
+
+  #symbolaside {
+    display: none;
+  }
+
+  #mapaside {
+    width: 100%;
+    float: left;
+  }
+
+  #mapimage {
+    width: 100%;
+  }
+
+  #dialectsaside {
+    display: none;
+  }
+
+  #statusaside {
+    width: 100%;
+    float: left;
+  }
+
+  .statustable {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 691px) and (orientation: landscape) {
@@ -275,5 +463,43 @@ figcaption {
 
   .posterimages {
     width: 50%;
+  }
+
+  #consonantsaside {
+    display: none;
+  }
+
+  #sinoaside {
+    display: block;
+  }
+
+  #writingimage {
+    width: 37.5%;
+  }
+
+  #symbolaside {
+    display: none;
+  }
+
+  #mapaside {
+    width: 100%;
+    float: left;
+  }
+
+  #mapimage {
+    width: 100%;
+  }
+
+  #dialectsaside {
+    display: none;
+  }
+
+  #statusaside {
+    width: 100%;
+    float: left;
+  }
+
+  .statustable {
+    width: 100%;
   }
 }
