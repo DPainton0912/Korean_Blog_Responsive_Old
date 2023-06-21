@@ -52,13 +52,6 @@ nav a:visited {
   font-family: 'Roboto Slab', serif;
 }
 
-footer {
-  padding: 25px;
-  color: aliceblue;
-  font-family: 'Roboto Slab', serif;
-  text-align: center;
-}
-
 .flagaside {
   padding: 0px;
   width: 50%;
@@ -195,14 +188,21 @@ td {
   float: right;
 }
 
-footer a:hover {
-  background-color: aliceblue;
-  color: darkturquoise;
+footer {
+  padding: 25px;
+  color: aliceblue;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
 }
 
 footer a:link {
   text-decoration: none;
   color: turquoise;
+}
+
+footer a:hover {
+  background-color: aliceblue;
+  color: darkturquoise;
 }
 
 footer a:visited {
