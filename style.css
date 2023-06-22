@@ -59,7 +59,7 @@ nav a:visited {
 }
 
 .flagimages {
-  padding: 15px;
+  padding: 0px;
 }
 
 figcaption {
@@ -77,7 +77,7 @@ figcaption {
   padding: 15px;
 }
 
-.button {
+.foodbuttons {
   border: none;
   background-color: aliceblue;
   padding: 15px 32px;
