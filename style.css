@@ -189,7 +189,6 @@ td {
 }
 
 .wrapper {
-  width: 430px;
   margin: 0 auto;
   height: 100%;
   padding-top: 0px;
@@ -337,6 +336,10 @@ footer a:visited {
   .statusimages {
     width: 75%;
   }
+
+  .wrapper {
+    width: 62.5%;
+  }
 }
 
 
@@ -392,6 +395,10 @@ footer a:visited {
   .statusimages {
     width: 100%;
   }
+
+  .wrapper {
+    width: 62.5%;
+  }
 }
 
 @media screen and (max-width: 1401px) and (orientation: landscape) {
@@ -440,11 +447,15 @@ footer a:visited {
   }
 
   #dialectsaside {
-    display: none
+    display: none;
   }
 
   .statusimages {
     width: 100%;
+  }
+
+  .wrapper {
+    width: 62.5%;
   }
 }
 
@@ -512,6 +523,10 @@ footer a:visited {
   .statustable {
     width: 100%;
   }
+
+  .wrapper {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 691px) and (orientation: landscape) {
@@ -576,5 +591,9 @@ footer a:visited {
 
   .statustable {
     width: 100%;
+  }
+
+  .wrapper {
+    width: 75%;
   }
 }
