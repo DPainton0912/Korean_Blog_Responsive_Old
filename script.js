@@ -2,7 +2,7 @@ window.onload = function() {
 
   var questionArea = document.getElementsByClassName("questions")[0],
     answerArea = document.getElementsByClassName("answers")[0],
-    checker = document.getElementsByClassName("checker")[0],
+    checker = document.getElementsByClassName("checkerdiv")[0],
     current = 0,
     allQuestions = {
       "Which Korean city hosted the Asian Games in 2002?": ["Busan", "Ulsan", "Seoul", "Seogwipo", 0],

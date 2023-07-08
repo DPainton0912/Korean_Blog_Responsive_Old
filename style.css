@@ -52,6 +52,13 @@ nav a:visited {
   font-family: 'Roboto Slab', serif;
 }
 
+figcaption {
+  color: turquoise;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: none;
+}
+
 .flagaside {
   padding: 0px;
   width: 50%;
@@ -60,13 +67,6 @@ nav a:visited {
 
 .flagimages {
   padding: 0px;
-}
-
-figcaption {
-  color: turquoise;
-  font-size: 1rem;
-  text-align: center;
-  padding-bottom: none;
 }
 
 .recipeasides {
@@ -125,11 +125,25 @@ td {
   padding: 0px;
 }
 
+#koreanaside {
+  width: 50%;
+  float: right;
+}
+
+#audiodiv {
+  text-align: center;
+}
+
 #consonantstable th {
   width: 25%;
   border-top: 2px solid darkorchid;
   border-left: 2px solid darkorchid;
   border-right: 2px solid darkorchid;
+}
+
+#chartaside {
+  width: 50%;
+  float: right;
 }
 
 #vowelstable th {
@@ -188,15 +202,16 @@ td {
   float: right;
 }
 
-.wrapper {
+.wrappersection {
   margin: 0 auto;
   height: 100%;
   padding-top: 0px;
 }
 
-#quiz {
+#quizarticle {
   padding-bottom: 60px;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2b2b2b;
   color: aliceblue;
   border: 2px solid darkorchid;
@@ -204,7 +219,7 @@ td {
   text-align: center;
 }
 
-#quiz h2 {
+#quizarticle h2 {
   text-align: center;
   padding-top: 25px;
   font-size: 2rem;
@@ -217,6 +232,10 @@ td {
   font-size: 2rem;
   font-weight: 700;
   font-style: italic;
+}
+
+.answers {
+  padding: 0px 0 10px 0px;
 }
 
 .answers div {
@@ -232,19 +251,15 @@ td {
   color: turquoise;
 }
 
-.answers {
-  padding: 0px 0 10px 0px;
-}
-
 .answers div:first-child {
   border: none;
 }
 
-#quiz h3 {
+#quizarticle h3 {
   font-size: 1.5rem;
 }
 
-.checker {
+.checkerdiv {
   display: inline-block;
   width: 200px;
   margin: 0 auto;
@@ -313,6 +328,14 @@ footer a:visited {
     width: 25%;
   }
 
+  #hangulimage {
+    width: 75%;
+  }
+
+  #languageimage {
+    width: 100%;
+  }
+
   #consonantsaside {
     display: block;
   }
@@ -329,19 +352,19 @@ footer a:visited {
     display: block;
   }
 
-  #mapimage {
-    width: 75%;
-  }
-
   #dialectsaside {
     display: block;
+  }
+
+  #dialectsimage {
+    width: 75%;
   }
 
   .statusimages {
     width: 75%;
   }
 
-  .wrapper {
+  .wrappersection {
     width: 62.5%;
   }
 }
@@ -372,6 +395,14 @@ footer a:visited {
     width: 25%;
   }
 
+  #hangulimage {
+    width: 75%;
+  }
+
+  #languageimage {
+    width: 87.5%;
+  }
+
   #consonantsaside {
     display: none;
   }
@@ -388,19 +419,19 @@ footer a:visited {
     display: none;
   }
 
-  #mapimage {
-    width: 100%;
-  }
-
   #dialectsaside {
     display: none;
+  }
+
+  #dialectsimage {
+    width: 100%;
   }
 
   .statusimages {
     width: 100%;
   }
 
-  .wrapper {
+  .wrappersection {
     width: 62.5%;
   }
 }
@@ -430,6 +461,14 @@ footer a:visited {
     width: 25%;
   }
 
+  #hangulimage {
+    width: 75%;
+  }
+
+  #languageimage {
+    width: 87.5%;
+  }
+
   #consonantsaside {
     display: none;
   }
@@ -446,19 +485,19 @@ footer a:visited {
     display: none;
   }
 
-  #mapimage {
-    width: 100%;
-  }
-
   #dialectsaside {
     display: none;
+  }
+
+  #dialectsimage {
+    width: 100%;
   }
 
   .statusimages {
     width: 100%;
   }
 
-  .wrapper {
+  .wrappersection {
     width: 62.5%;
   }
 }
@@ -490,6 +529,22 @@ footer a:visited {
     width: 50%;
   }
 
+  #koreanaside {
+    width: 100%;
+  }
+
+  #hangulimage {
+    width: 75%;
+  }
+
+  #languageimage {
+    width: 100%;
+  }
+
+  #audiodiv {
+    display: none;
+  }
+
   #consonantsaside {
     display: none;
   }
@@ -511,12 +566,12 @@ footer a:visited {
     float: left;
   }
 
-  #mapimage {
-    width: 100%;
-  }
-
   #dialectsaside {
     display: none;
+  }
+
+  #dialectsimage {
+    width: 100%;
   }
 
   #statusaside {
@@ -528,7 +583,7 @@ footer a:visited {
     width: 100%;
   }
 
-  .wrapper {
+  .wrappersection {
     width: 75%;
   }
 }
@@ -559,6 +614,22 @@ footer a:visited {
     width: 50%;
   }
 
+  #koreanaside {
+    width: 100%;
+  }
+
+  #hangulimage {
+    width: 75%;
+  }
+
+  #languageimage {
+    width: 100%;
+  }
+
+  #audiodiv {
+    display: none;
+  }
+
   #consonantsaside {
     display: none;
   }
@@ -580,12 +651,12 @@ footer a:visited {
     float: left;
   }
 
-  #mapimage {
-    width: 100%;
-  }
-
   #dialectsaside {
     display: none;
+  }
+
+  #dialectsimage {
+    width: 100%;
   }
 
   #statusaside {
@@ -597,7 +668,7 @@ footer a:visited {
     width: 100%;
   }
 
-  .wrapper {
+  .wrappersection {
     width: 75%;
   }
 }
