@@ -175,6 +175,11 @@ td {
   padding: 15px;
 }
 
+#romanizationaside {
+  width: 50%;
+  float: right;
+}
+
 .symboltables th {
   border-bottom: 2px solid darkorchid;
   border-top: 2px solid darkorchid;
@@ -348,6 +353,10 @@ footer a:visited {
     width: 37.5%;
   }
 
+  #romanizationimage {
+    width: 75%;
+  }
+
   #symbolaside {
     display: block;
   }
@@ -415,6 +424,10 @@ footer a:visited {
     width: 37.5%;
   }
 
+  #romanizationimage {
+    width: 100%;
+  }
+
   #symbolaside {
     display: none;
   }
@@ -479,6 +492,10 @@ footer a:visited {
 
   #writingimage {
     width: 37.5%;
+  }
+
+  #romanizationimage {
+    width: 100%;
   }
 
   #symbolaside {
@@ -555,6 +572,15 @@ footer a:visited {
 
   #writingimage {
     width: 37.5%;
+  }
+
+  #romanizationaside {
+    width: 100%;
+    float: left;
+  }
+
+  #romanizationimage {
+    width: 100%;
   }
 
   #symbolaside {
@@ -640,6 +666,15 @@ footer a:visited {
 
   #writingimage {
     width: 37.5%;
+  }
+
+  #romanizationaside {
+    width: 100%;
+    float: left;
+  }
+
+  #romanizationimage {
+    width: 100%;
   }
 
   #symbolaside {
