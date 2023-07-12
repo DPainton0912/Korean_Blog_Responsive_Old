@@ -1,5 +1,15 @@
-window.onload = function() {
+function showHideRecipe(id) {
+  var r = document.getElementById(id);
+  if (r.style.display === "block") {
+    r.style.display = "none";
+  } else {
+    r.style.display = "block";
+  }
+}
 
+
+
+window.onload = function() {
   var questionArea = document.getElementsByClassName("questions")[0],
     answerArea = document.getElementsByClassName("answers")[0],
     checker = document.getElementsByClassName("checkerdiv")[0],
@@ -63,7 +73,6 @@ window.onload = function() {
       if (givenAnswer === correctAnswer) {
         addChecker(true);
       }
-
       else {
         addChecker(false);
       }
@@ -73,12 +82,10 @@ window.onload = function() {
         loadQuestion(current);
         loadAnswers(current);
       }
-
       else {
         questionArea.innerHTML = "Done";
         answerArea.innerHTML = "";
       }
-
     };
   }
 
@@ -91,24 +98,12 @@ window.onload = function() {
       createDiv.className += "correct";
       checker.appendChild(createDiv);
     }
-
     else {
       createDiv.className += "false";
       checker.appendChild(createDiv);
     }
   }
-
+  
   loadQuestion(current);
   loadAnswers(current);
-
 };
-
-
-function showHideRecipe(id) {
-  var r = document.getElementById(id);
-  if (r.style.display === "block") {
-    r.style.display = "none";
-  } else {
-    r.style.display = "block";
-  }
-}

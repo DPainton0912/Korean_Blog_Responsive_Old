@@ -69,10 +69,6 @@ figcaption {
   padding: 0px;
 }
 
-.recipeasides {
-  display: none;
-}
-
 .foodimages {
   padding: 15px;
 }
@@ -88,6 +84,10 @@ figcaption {
   font-size: 1rem;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.recipeasides {
+  display: none;
 }
 
 table {
@@ -208,7 +208,7 @@ td {
 }
 
 .wrappersection {
-  margin: 0 auto;
+  margin: 0px auto;
   height: 100%;
   padding-top: 0px;
 }
@@ -240,14 +240,14 @@ td {
 }
 
 .answers {
-  padding: 0px 0 10px 0px;
+  padding: 0px 0px 10px 0px;
 }
 
 .answers div {
   width: 50%;
-  margin: 0 auto;
+  margin: 0px auto;
   padding-bottom: 15px;
-  padding: 10px 0 0 0;
+  padding: 10px 0px 0px 0px;
   font-size: 1.5rem;
 }
 
@@ -267,7 +267,7 @@ td {
 .checkerdiv {
   display: inline-block;
   width: 200px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .correct,
