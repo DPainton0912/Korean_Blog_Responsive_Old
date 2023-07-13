@@ -14,6 +14,7 @@
 
 <body>
   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <script src="script.js"></script>
 
   <header>
     <nav>
@@ -31,6 +32,156 @@
     </nav>
     <h1 id="title">Korean Blog</h1>
   </header>
+
+  <main>
+    <section class="containersection">
+      <article id="madlibsarticle">
+
+        <h2>Mad Lib Korea</h2>
+        <p><strong>Mad Libs</strong> are stories with words removed and replaced by blank spaces. Fill in the blanks for
+          a fun story! Make sure to think outside the box. The wackier the better!</p>
+
+        <form action="#theStory" method="post" onsubmit="submitInputs();return false">
+
+          <div class="form-group">
+            <label for="input1">1 Adjective</label>
+            <input class="form-control" id="input1" placeholder="A word that describes a person or thing" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input2">2 Noun Plural</label>
+            <input class="form-control" id="input2"
+              placeholder="A form of a noun that refers to more than one person or thing" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input3">3 Noun</label>
+            <input class="form-control" id="input3"
+              placeholder="A word that refers to a person, a place, a thing, a quality or an activity" required
+              type="text">
+          </div>
+
+          </div>
+          <div class="form-group">
+            <label for="input4">4 Place</label>
+            <input class="form-control" id="input4" placeholder="A particular position, point or area" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input5">5 Adjective</label>
+            <input class="form-control" id="input5" placeholder="A word that describes a person or thing" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input6">6 Noun Plural</label>
+            <input class="form-control" id="input6"
+              placeholder="A form of a noun that refers to more than one person or thing" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input7">7 Adjective</label>
+            <input class="form-control" id="input7" placeholder="A word that describes a person or thing" required
+              type="text">
+          </div>
+
+
+          <div class="form-group">
+            <label for="input8">8 Verb</label>
+            <input class="form-control" id="input8"
+              placeholder="A word or group of words that expresses an action, an event or a state" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input9">9 Noun Plural</label>
+            <input class="form-control" id="input9"
+              placeholder="A form of a noun that refers to more than one person or thing" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input10">10 Noun Plural</label>
+            <input class="form-control" id="input10" placeholder="A form of a noun that refers to more than one person or thing
+" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input11">11 Verb</label>
+            <input class="form-control" id="input11"
+              placeholder="A word or group of words that expresses an action, an event or a state" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input12">12 Adjective</label>
+            <input class="form-control" id="input12" placeholder="A word that describes a person or thing" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input13">13 Noun Plural</label>
+            <input class="form-control" id="input13"
+              placeholder="A form of a noun that refers to more than one person or thing" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input14">14 Noun</label>
+            <input class="form-control" id="input14"
+              placeholder="A word that refers to a person, a place, a thing, a quality or an activity" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input15">15 Adjective</label>
+            <input class="form-control" id="input15" placeholder="A word that describes a person or thing" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input16">16 Noun Plural</label>
+            <input class="form-control" id="input16"
+              placeholder="A form of a noun that refers to more than one person or thing" required type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input17">17 Adjective</label>
+            <input class="form-control" id="input17" placeholder="A word that describes a person or thing" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input18">18 Noun</label>
+            <input class="form-control" id="input18"
+              placeholder="A word that refers to a person, a place, a thing, a quality or an activity" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input19">19 Noun</label>
+            <input class="form-control" id="input19"
+              placeholder="A word that refers to a person, a place, a thing, a quality or an activity" required
+              type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="input20">20 Noun Plural</label>
+            <input class="form-control" id="input20"
+              placeholder="A form of a noun that refers to more than one person or thing" required type="text">
+          </div>
+
+          <div class="form-group">
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-success" onclick="autoFill()" type="button">Auto-Fill</button>
+            <button class="btn btn-danger" onclick="clearForm()" type="button">Clear</button>
+          </div>
+        </form>
+
+        <aside class="storyaside">
+          <div id="completedstory"></div>
+        </aside>
+      </article>
+    </section>
+  </main>
 
   <footer>
     <h2><strong>Made by:</strong></h2>

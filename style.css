@@ -287,6 +287,78 @@ td {
   background-color: #DC4437;
 }
 
+.containersection {
+  margin: 0px auto;
+  height: 100%;
+  padding-top: 0px;
+}
+
+#madlibsarticle {
+  margin: 0px auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2b2b2b;
+  color: aliceblue;
+  border: 2px solid darkorchid;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#madlibsarticle h2 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 2rem;
+}
+
+#madlibsarticle p {
+  text-align: center;
+  padding-top: 0px;
+  padding: 0px 25px 25px;
+  font-size: 1.25rem;
+}
+
+form {
+  border-bottom: 2px solid turquoise;
+  border-top: 2px solid turquoise;
+}
+
+.form-group {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+  padding: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  background-color: aliceblue;
+  color: darkturquoise;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+completedstory {
+  text-align: center;
+  margin: 25px;
+  padding: 25px;
+}
+
+span {
+  color: darkturquoise;
+  font-weight: bold;
+}
+
 footer {
   padding: 25px;
   color: aliceblue;
@@ -307,6 +379,7 @@ footer a:hover {
 footer a:visited {
   color: darkorchid;
 }
+
 
 
 @media screen and (max-width: 1660px) {
@@ -381,8 +454,11 @@ footer a:visited {
   .checkerdiv {
     width: 50%;
   }
-}
 
+  .containersection {
+    width: 62.5%;
+  }
+}
 
 @media screen and (max-width: 1401px) {
   nav {
@@ -455,6 +531,10 @@ footer a:visited {
 
   .checkerdiv {
     width: 50%;
+  }
+
+  .containersection {
+    width: 62.5%;
   }
 }
 
@@ -530,8 +610,11 @@ footer a:visited {
   .checkerdiv {
     width: 50%;
   }
-}
 
+  .containersection {
+    width: 62.5%;
+  }
+}
 
 @media screen and (max-width: 691px) {
   nav {
@@ -627,6 +710,10 @@ footer a:visited {
   }
 
   .checkerdiv {
+    width: 75%;
+  }
+
+  .containersection {
     width: 75%;
   }
 }
@@ -725,6 +812,10 @@ footer a:visited {
   }
 
   .checkerdiv {
+    width: 75%;
+  }
+
+  .containersection {
     width: 75%;
   }
 }
