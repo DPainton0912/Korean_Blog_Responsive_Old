@@ -52,6 +52,10 @@ nav a:visited {
   font-family: 'Roboto Slab', serif;
 }
 
+img {
+  padding: 15px;
+}
+
 figcaption {
   color: turquoise;
   font-size: 1rem;
@@ -63,14 +67,6 @@ figcaption {
   padding: 0px;
   width: 50%;
   float: right;
-}
-
-.flagimages {
-  padding: 0px;
-}
-
-.foodimages {
-  padding: 15px;
 }
 
 .foodbuttons {
@@ -104,10 +100,6 @@ td {
   margin: 25px;
   padding: 25px;
   text-align: center;
-}
-
-.ratingimages {
-  padding: 15px;
 }
 
 .posterasides {
@@ -171,10 +163,6 @@ td {
   width: 100%;
 }
 
-#writingimage {
-  padding: 15px;
-}
-
 #romanizationaside {
   width: 50%;
   float: right;
@@ -191,15 +179,15 @@ td {
   float: right;
 }
 
+#dialectstable table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #dialectstable th {
   border-top: 2px solid darkorchid;
   border-left: 2px solid darkorchid;
   border-right: 2px solid darkorchid;
-}
-
-#dialectstable table {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #statusaside {
@@ -207,7 +195,7 @@ td {
   float: right;
 }
 
-.wrappersection {
+.quizcontainersection {
   margin: 0px auto;
   height: 100%;
   padding-top: 0px;
@@ -287,7 +275,7 @@ td {
   background-color: #DC4437;
 }
 
-.containersection {
+.madlibcontainersection {
   margin: 0px auto;
   height: 100%;
   padding-top: 0px;
@@ -324,18 +312,18 @@ form {
   border-top: 2px solid turquoise;
 }
 
-.form-group {
+.formgroup {
   font-size: 1.25rem;
   font-weight: 700;
   font-style: italic;
   padding: 20px;
 }
 
-.form-control {
+.formcontrol {
   width: 100%;
 }
 
-.btn {
+.button {
   margin: 10px;
   padding: 5px;
   border: none;
@@ -379,6 +367,7 @@ footer a:hover {
 footer a:visited {
   color: darkorchid;
 }
+
 
 
 
@@ -447,7 +436,7 @@ footer a:visited {
     width: 75%;
   }
 
-  .wrappersection {
+  .quizcontainersection {
     width: 62.5%;
   }
 
@@ -455,7 +444,7 @@ footer a:visited {
     width: 50%;
   }
 
-  .containersection {
+  .madlibcontainersection {
     width: 62.5%;
   }
 }
@@ -525,7 +514,7 @@ footer a:visited {
     width: 100%;
   }
 
-  .wrappersection {
+  .quizcontainersection {
     width: 62.5%;
   }
 
@@ -533,7 +522,7 @@ footer a:visited {
     width: 50%;
   }
 
-  .containersection {
+  .madlibcontainersection {
     width: 62.5%;
   }
 }
@@ -603,7 +592,7 @@ footer a:visited {
     width: 100%;
   }
 
-  .wrappersection {
+  .quizcontainersection {
     width: 62.5%;
   }
 
@@ -611,7 +600,7 @@ footer a:visited {
     width: 50%;
   }
 
-  .containersection {
+  .madlibcontainersection {
     width: 62.5%;
   }
 }
@@ -705,7 +694,7 @@ footer a:visited {
     width: 100%;
   }
 
-  .wrappersection {
+  .quizcontainersection {
     width: 75%;
   }
 
@@ -713,7 +702,7 @@ footer a:visited {
     width: 75%;
   }
 
-  .containersection {
+  .madlibcontainersection {
     width: 75%;
   }
 }
@@ -807,7 +796,7 @@ footer a:visited {
     width: 100%;
   }
 
-  .wrappersection {
+  .quizcontainersection {
     width: 75%;
   }
 
@@ -815,7 +804,7 @@ footer a:visited {
     width: 75%;
   }
 
-  .containersection {
+  .madlibcontainersection {
     width: 75%;
   }
 }

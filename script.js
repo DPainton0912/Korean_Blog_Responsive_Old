@@ -1,11 +1,12 @@
 function showHideRecipe(id) {
-  var r = document.getElementById(id);
-  if (r.style.display === "block") {
-    r.style.display = "none";
+  var recipeArea = document.getElementById(id);
+  if (recipeArea.style.display == "block") {
+    recipeArea.style.display = "none";
   } else {
-    r.style.display = "block";
+    recipeArea.style.display = "block";
   }
 }
+
 
 
 
@@ -56,7 +57,7 @@ window.onload = function loadPage() {
     var answers = allQuestions[Object.keys(allQuestions)[curr]];
     answerArea.innerHTML = "";
 
-    for (var i = 0; i < answers.length - 1; i += 1) {
+    for (var i = 0; i < answers.length - 1; i++) {
       var createDiv = document.createElement("div"),
         text = document.createTextNode(answers[i]);
       createDiv.appendChild(text);
@@ -91,8 +92,8 @@ window.onload = function loadPage() {
 
   function addChecker(bool) {
     var createDiv = document.createElement("div"),
-      txt = document.createTextNode(current + 1);
-    createDiv.appendChild(txt);
+      text = document.createTextNode(current + 1);
+    createDiv.appendChild(text);
 
     if (bool) {
       createDiv.className += "correct";
@@ -107,6 +108,7 @@ window.onload = function loadPage() {
   loadQuestion(current);
   loadAnswers(current);
 };
+
 
 
 
