@@ -293,3 +293,18 @@ function createMadLibs() {
   document.getElementById("output19").innerHTML = userInputs.ac19;
   document.getElementById("output20").innerHTML = userInputs.ac20;
 }
+
+
+
+
+function showHideImage(image) {
+  var expandImage = document.getElementById("expandedimage");
+  var imageText = document.getElementById("imagetext");
+  if (expandImage.parentElement.style.display == "block") {
+    expandImage.parentElement.style.display = "none";
+  } else {
+    expandImage.src = image.src;
+    imageText.innerHTML = image.alt;
+    expandImage.parentElement.style.display = "block";
+  }
+}
