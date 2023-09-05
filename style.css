@@ -501,10 +501,22 @@ footer a:visited {
     padding: 20px;
   }
 
+  .widecolumn {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+
   .koreaimages {
     width: 100%;
     padding-left: 20%;
     padding-top: 20%;
+  }
+
+  .widekoreaimages {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
   }
 
   .gallerycontainerdiv {
@@ -597,8 +609,20 @@ footer a:visited {
     padding: 20px;
   }
 
+  .widecolumn {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+
   .koreaimages {
     width: 100%;
+  }
+
+  .widekoreaimages {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
   }
 
   .gallerycontainerdiv {
@@ -691,8 +715,20 @@ footer a:visited {
     padding: 20px;
   }
 
+  .widecolumn {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+
   .koreaimages {
     width: 100%;
+  }
+
+  .widekoreaimages {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
   }
 
   .gallerycontainerdiv {
@@ -808,11 +844,24 @@ footer a:visited {
     width: 87%;
     padding: 20px;
   }
-  
+
+  .widecolumn {
+    float: left;
+    width: 100%;
+    padding: 20px;
+  }
+
   .koreaimages {
     width: 100%;
     padding: 15px;
   }
+
+  .widekoreaimages {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
   .gallerycontainerdiv {
     width: 100%;
   }
@@ -924,11 +973,24 @@ footer a:visited {
     width: 87%;
     padding: 20px;
   }
-  
+
+  .widecolumn {
+    float: left;
+    width: 100%;
+    padding: 20px;
+  }
+
   .koreaimages {
     width: 100%;
     padding: 15px;
   }
+
+  .widekoreaimages {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
   .gallerycontainerdiv {
     width: 100%;
   }
