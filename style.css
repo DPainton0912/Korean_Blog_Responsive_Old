@@ -9,6 +9,10 @@ html {
   background-color: #383838;
 }
 
+#galleryhtml * {
+  box-sizing: border-box;
+}
+
 header h1 {
   padding: 40px;
   font-size: 2rem;
@@ -347,6 +351,49 @@ span {
   font-weight: bold;
 }
 
+.column img {
+  padding: 15px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallerycontainerdiv {
+  position: relative;
+  display: none;
+}
+
+#expandedimage {
+  width: 100%;
+}
+
+#imagetext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebutton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
 footer {
   padding: 25px;
   color: aliceblue;
@@ -447,6 +494,24 @@ footer a:visited {
   .madlibcontainersection {
     width: 62.5%;
   }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+
+  .koreaimages {
+    width: 100%;
+    padding-left: 20%;
+    padding-top: 20%;
+  }
+
+  .gallerycontainerdiv {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 1401px) {
@@ -525,6 +590,22 @@ footer a:visited {
   .madlibcontainersection {
     width: 62.5%;
   }
+
+  .column {
+    float: left;
+    width: 32%;
+    padding: 20px;
+  }
+
+  .koreaimages {
+    width: 100%;
+  }
+
+  .gallerycontainerdiv {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 1401px) and (orientation: landscape) {
@@ -602,6 +683,22 @@ footer a:visited {
 
   .madlibcontainersection {
     width: 62.5%;
+  }
+
+  .column {
+    float: left;
+    width: 32%;
+    padding: 20px;
+  }
+
+  .koreaimages {
+    width: 100%;
+  }
+
+  .gallerycontainerdiv {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -705,6 +802,20 @@ footer a:visited {
   .madlibcontainersection {
     width: 75%;
   }
+
+  .column {
+    float: left;
+    width: 87%;
+    padding: 20px;
+  }
+  
+  .koreaimages {
+    width: 100%;
+    padding: 15px;
+  }
+  .gallerycontainerdiv {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 691px) and (orientation: landscape) {
@@ -806,5 +917,19 @@ footer a:visited {
 
   .madlibcontainersection {
     width: 75%;
+  }
+
+  .column {
+    float: left;
+    width: 87%;
+    padding: 20px;
+  }
+  
+  .koreaimages {
+    width: 100%;
+    padding: 15px;
+  }
+  .gallerycontainerdiv {
+    width: 100%;
   }
 }
